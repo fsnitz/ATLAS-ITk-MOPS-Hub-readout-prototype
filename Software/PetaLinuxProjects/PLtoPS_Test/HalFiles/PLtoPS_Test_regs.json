@@ -1,0 +1,56 @@
+{
+  "jsonVersion": 2,
+  "registerMap": {
+    "name": "PLtoPS_Test",
+    "description": "",
+    "width": 32,
+    "baseAddress": 4,
+    "addrWidthBits": 32,
+    "registers": [
+      {
+        "type": "Register",
+        "name": "Interface",
+        "description": "",
+        "access": "READ_WRITE",
+        "addressOffset": 0,
+        "size": 32,
+        "fields": [
+          {
+            "name": "LED",
+            "description": "",
+            "bitWidth": 1,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "Heartbeat",
+        "description": "",
+        "access": "READ_ONLY",
+        "addressOffset": 4,
+        "size": 32,
+        "fields": [
+          {
+            "name": "heartbeat",
+            "description": "",
+            "bitWidth": 1,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      }
+    ],
+    "revision": 9,
+    "generateRecordPorts": false,
+    "generatePackedStructs": false,
+    "disableTimestamps": false
+  }
+}
