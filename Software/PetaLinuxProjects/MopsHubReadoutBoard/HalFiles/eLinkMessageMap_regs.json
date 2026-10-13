@@ -1,0 +1,316 @@
+{
+  "jsonVersion": 2,
+  "registerMap": {
+    "name": "eLinkMessageMap",
+    "description": "",
+    "width": 32,
+    "baseAddress": 2684354560,
+    "addrWidthBits": 32,
+    "registers": [
+      {
+        "type": "Register",
+        "name": "ControlnByte01",
+        "description": "",
+        "access": "WRITE_ONLY",
+        "addressOffset": 0,
+        "size": 32,
+        "fields": [
+          {
+            "name": "eLinkWrite_en",
+            "description": "",
+            "bitWidth": 1,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "IndexPart1",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 1,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte0",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 9,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Hub_select",
+            "description": "",
+            "bitWidth": 3,
+            "bitOffset": 17,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Node_id",
+            "description": "",
+            "bitWidth": 7,
+            "bitOffset": 20,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "CAN_code",
+            "description": "",
+            "bitWidth": 4,
+            "bitOffset": 27,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "Byte25",
+        "description": "",
+        "access": "WRITE_ONLY",
+        "addressOffset": 4,
+        "size": 32,
+        "fields": [
+          {
+            "name": "Byte5",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte4",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 8,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "SubIndex",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 16,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "IndexPart2",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 24,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "Byte67",
+        "description": "",
+        "access": "WRITE_ONLY",
+        "addressOffset": 8,
+        "size": 32,
+        "fields": [
+          {
+            "name": "Byte7",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte6",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 8,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "ReadReg0",
+        "description": "Contains COBE-ID, cmd and the first part of the Index. Also contains Hub-ID",
+        "access": "READ_ONLY",
+        "addressOffset": 12,
+        "size": 32,
+        "fields": [
+          {
+            "name": "eLinkRead_en",
+            "description": "",
+            "bitWidth": 1,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "IndexPart1",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 1,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte0",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 9,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Hub_select",
+            "description": "",
+            "bitWidth": 3,
+            "bitOffset": 17,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Node_id",
+            "description": "",
+            "bitWidth": 7,
+            "bitOffset": 20,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "CAN_code",
+            "description": "",
+            "bitWidth": 4,
+            "bitOffset": 27,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "ReadReg1",
+        "description": "Contains 2nd Index part, Subindex and first data Byte",
+        "access": "READ_ONLY",
+        "addressOffset": 16,
+        "size": 32,
+        "fields": [
+          {
+            "name": "Byte5",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte4",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 8,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "SubIndex",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 16,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "IndexPart2",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 24,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      },
+      {
+        "type": "Register",
+        "name": "ReadReg2",
+        "description": "Contains Data Byte 6 and 7 ",
+        "access": "READ_ONLY",
+        "addressOffset": 20,
+        "size": 32,
+        "fields": [
+          {
+            "name": "Byte7",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 0,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          },
+          {
+            "name": "Byte6",
+            "description": "",
+            "bitWidth": 8,
+            "bitOffset": 8,
+            "reset": 0,
+            "selfClear": false,
+            "enumValues": [],
+            "volatile": false
+          }
+        ]
+      }
+    ],
+    "revision": 69,
+    "generateRecordPorts": false,
+    "generatePackedStructs": false,
+    "disableTimestamps": false
+  }
+}
