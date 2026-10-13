@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ReadoutBoard_Simbols")(type "KiCad")(uri "/Users/fnitz/MasterThesis/Hardware/Library/ReadoutBoard_Simbols.kicad_sym")(options "")(descr ""))
+  (lib (name "kria-k26-devboard")(type "KiCad")(uri "/Users/fnitz/Downloads/kria-k26-devboard-main/lib/kria-k26-devboard.kicad_sym")(options "")(descr ""))
+  (lib (name "D")(type "KiCad")(uri "/Users/fnitz/ccsom/Hardware/Library/ccsom_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "ccsom_lib")(type "KiCad")(uri "/Users/fnitz/ccsom/Hardware/Library/ccsom_lib.kicad_sym")(options "")(descr ""))
+)

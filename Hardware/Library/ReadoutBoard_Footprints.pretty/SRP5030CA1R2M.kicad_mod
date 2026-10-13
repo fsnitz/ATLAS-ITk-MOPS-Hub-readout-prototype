@@ -1,0 +1,222 @@
+(footprint "SRP5030CA1R2M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SRP5030CA-1R2M-2")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 -4.8 0)
+		(layer "F.SilkS")
+		(uuid "b32b8ddc-1dc6-4af8-a163-9fa055dfbf2b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SRP5030CA1R2M"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9587e729-d092-4959-b957-ffa9570ae7f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c568c099-65c5-4221-b137-7b40a4c4cdb4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6107b63-a421-4dd5-a623-322aa1633688")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f941e6f-888f-44eb-a497-a56951db4730")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.75 -2.65)
+		(end 2.75 -2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bfcec18f-5af8-402b-814e-6a6d43f8b2c0")
+	)
+	(fp_line
+		(start -2.75 2.65)
+		(end -2.75 -2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef76f689-f455-4659-8868-962eebee03ac")
+	)
+	(fp_line
+		(start 2.75 -2.65)
+		(end 2.75 2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b074a881-d93e-4f84-a624-ebeddd4c6c99")
+	)
+	(fp_line
+		(start 2.75 2.65)
+		(end -2.75 2.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6599ceec-4c21-4bd2-bd9c-ceedf3007580")
+	)
+	(fp_line
+		(start -3.75 -3.65)
+		(end 3.75 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51d2658e-5d1d-42be-a2cc-39ca70ee63bd")
+	)
+	(fp_line
+		(start -3.75 3.65)
+		(end -3.75 -3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "763b3e95-0e3c-4ff9-b8d8-e261435b4087")
+	)
+	(fp_line
+		(start 3.75 -3.65)
+		(end 3.75 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4dab8d33-e61b-4fb2-b457-4fa3a48738c7")
+	)
+	(fp_line
+		(start 3.75 3.65)
+		(end -3.75 3.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9511f384-ac0d-40a9-8db8-bfe63e1b0666")
+	)
+	(fp_line
+		(start -2.75 -2.65)
+		(end 2.75 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61c368c6-64b1-454b-bae4-30c47ff2a069")
+	)
+	(fp_line
+		(start -2.75 2.65)
+		(end -2.75 -2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8c0ba60-280f-4d14-be73-ab8792acdacb")
+	)
+	(fp_line
+		(start 2.75 -2.65)
+		(end 2.75 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da0bbe01-ad1a-484f-a98b-f1243e438dcb")
+	)
+	(fp_line
+		(start 2.75 2.65)
+		(end -2.75 2.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf4a5ab0-1753-437c-b7ae-57672f31868c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a9df141d-687a-4fc1-a506-70b528d30034")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -1.625 90)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fcfd00c9-0147-4a10-873f-29d770e52ff4")
+	)
+	(pad "2" smd rect
+		(at 0 1.625 90)
+		(size 1.25 4.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7d44341f-0a92-40ff-8f4d-848282edbafe")
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/SRP5030CA-1R2M.stp"
+		(offset
+			(xyz 0.05 -0.02 1.24)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

@@ -1,0 +1,222 @@
+(footprint "CRYSTAL_4P_OSCCC320X250X75"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.730615 -2.942465 0)
+		(layer "F.SilkS")
+		(uuid "3d854033-dafe-4b83-92cc-61df7b8dc4a8")
+		(effects
+			(font
+				(size 0.630449 0.630449)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CRYSTAL_4P_OSCCC320X250X75"
+		(at 4.73125 2.940776 0)
+		(layer "F.Fab")
+		(uuid "596738f6-bac2-46a5-b0a5-094921ecd034")
+		(effects
+			(font
+				(size 0.630088 0.630088)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd333e88-de03-43e5-a580-0ef6b3fbe293")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ctscorp.com/Files/DataSheets/Passives/FCP/Crystals/crystals-403-datasheet.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d5900a1-dca3-4cc8-9c37-4db713d1df07")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae6c37c6-cbe9-4566-aa66-f8f2b4e4e058")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.3)
+		(end -1.25 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9c4ee44-0207-4519-9969-e271be6f2819")
+	)
+	(fp_line
+		(start 1.25 -0.3)
+		(end 1.25 0.3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4aee3c40-d2e1-4d34-8ab4-2561ceddefc9")
+	)
+	(fp_circle
+		(center -1.64 -2.03)
+		(end -1.54 -2.03)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f6ac8f67-14e2-4c71-883f-7fdca274620c")
+	)
+	(fp_line
+		(start -1.65 -2)
+		(end 1.65 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36c965fc-005c-4a23-bff0-97dc2d6a4817")
+	)
+	(fp_line
+		(start -1.65 2)
+		(end -1.65 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53c30e77-7e25-43d3-a7e8-1c4783395fb0")
+	)
+	(fp_line
+		(start 1.65 -2)
+		(end 1.65 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2de0e17e-0c0c-46b2-9baa-b3a892ff5098")
+	)
+	(fp_line
+		(start 1.65 2)
+		(end -1.65 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0f91d65-320e-40e8-a790-ed3f27bec6d0")
+	)
+	(fp_line
+		(start -1.25 -1.6)
+		(end 1.25 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f93c8050-edfa-4c8f-95d7-be0b454b3190")
+	)
+	(fp_line
+		(start -1.25 1.6)
+		(end -1.25 -1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fdbb4ef6-a2c9-4669-ab58-67606ef0d1b1")
+	)
+	(fp_line
+		(start 1.25 -1.6)
+		(end 1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d9bb510-dd99-415e-991e-85eb73aadb53")
+	)
+	(fp_line
+		(start 1.25 1.6)
+		(end -1.25 1.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9734e95c-b949-4e20-b001-f18f2b11cc80")
+	)
+	(pad "1" smd roundrect
+		(at -0.86 -1.16)
+		(size 1.09 1.19)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "36f99c33-7f57-4092-8fba-c72e4b91c9fc")
+	)
+	(pad "2" smd roundrect
+		(at -0.86 1.16)
+		(size 1.09 1.19)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "5660f501-1000-4772-acb2-e84b03e4c6ec")
+	)
+	(pad "3" smd roundrect
+		(at 0.86 1.16)
+		(size 1.09 1.19)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "dc84b5e0-0dfd-4b5d-8929-db5212616352")
+	)
+	(pad "4" smd roundrect
+		(at 0.86 -1.16)
+		(size 1.09 1.19)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "bee2403c-b8c0-4996-8716-92f0dcbc97b4")
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/403C35D24M00000.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

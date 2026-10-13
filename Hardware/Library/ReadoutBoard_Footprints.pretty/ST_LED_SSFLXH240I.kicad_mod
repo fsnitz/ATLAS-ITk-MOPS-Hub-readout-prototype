@@ -1,0 +1,347 @@
+(footprint "ST_LED_SSFLXH240I"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SSF-LXH240IGD")
+	(tags "LED")
+	(property "Reference" "D**"
+		(at 0.42 -3.33 0)
+		(layer "F.SilkS")
+		(uuid "a5781783-8c7d-41bd-ada0-84970e81c94d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ST_LED_SSFLXH240I"
+		(at -1.712 1.27 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "25a0f87c-ec64-4b4f-98e1-b27b5a5f2fe5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d9ade19-1fe3-4a47-a076-67c4cd7ce408")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5974eea3-3bbe-4107-897a-dd00d7f0ae4b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c29852b-e498-400f-b309-8ee27fd5ebfd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.445 -0.89)
+		(end 3.69 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3a130046-f093-4d40-8e00-b3114c61c4ce")
+	)
+	(fp_line
+		(start -4.445 3.43)
+		(end -4.445 -0.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a733a95-f198-4b65-acce-27f1c7d6c9d9")
+	)
+	(fp_line
+		(start -0.14 -1.33)
+		(end -0.14 -1.33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aa5220a-9541-4f34-a82f-b12670c8c329")
+	)
+	(fp_line
+		(start 0.06 -1.33)
+		(end 0.06 -1.33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1dac42fe-d18c-450d-ae57-b54e1135ebf6")
+	)
+	(fp_line
+		(start 3.69 -0.89)
+		(end 3.69 3.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "221ace16-1bb5-4f58-b960-e0e30cfe113a")
+	)
+	(fp_line
+		(start 3.69 3.43)
+		(end -4.445 3.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e84d30a8-d856-4779-822f-cd3cf5d2d439")
+	)
+	(fp_arc
+		(start -0.14 -1.33)
+		(mid -0.04 -1.43)
+		(end 0.06 -1.33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f22fc32c-0c29-4085-bbad-2c412c00b952")
+	)
+	(fp_arc
+		(start 0.06 -1.33)
+		(mid -0.04 -1.23)
+		(end -0.14 -1.33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c76d79f8-78c1-41a1-89a8-6106b1df1326")
+	)
+	(fp_line
+		(start -8.115 -1.89)
+		(end 4.69 -1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c228608-92d8-4fa0-b6fe-7bf38897cd6c")
+	)
+	(fp_line
+		(start -8.115 4.43)
+		(end -8.115 -1.89)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3158914-9689-4c01-beaf-34af4b147ae3")
+	)
+	(fp_line
+		(start 4.69 -1.89)
+		(end 4.69 4.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b065c352-72de-4181-8336-b5e7b7326383")
+	)
+	(fp_line
+		(start 4.69 4.43)
+		(end -8.115 4.43)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f6d1e3d-ad7a-40ac-87b4-7f94642a3920")
+	)
+	(fp_line
+		(start -5.845 0)
+		(end -5.845 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e3d7342-6478-4bad-b0a7-c20b281767b4")
+	)
+	(fp_line
+		(start -5.845 0)
+		(end -4.451 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "42d7886f-2296-43aa-8629-b0e21098b937")
+	)
+	(fp_line
+		(start -5.845 2.54)
+		(end -5.845 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d81733e-d5f0-42f9-9940-34f73fe85d11")
+	)
+	(fp_line
+		(start -5.845 2.54)
+		(end -4.451 2.54)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d5dc76e-4702-4f24-bf1f-8339b8ede96b")
+	)
+	(fp_line
+		(start -4.445 -0.89)
+		(end 3.69 -0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df3a0d78-7780-4c52-84c0-8d3efa9a0760")
+	)
+	(fp_line
+		(start -4.445 3.43)
+		(end -4.445 -0.89)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c21fece1-63d3-4c21-8b16-20e25feb1bc6")
+	)
+	(fp_line
+		(start 3.69 -0.89)
+		(end 3.69 3.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "dfab2bdb-17cd-4d48-8051-ca1dd9c3036d")
+	)
+	(fp_line
+		(start 3.69 3.43)
+		(end -4.445 3.43)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d09e904b-7660-48d4-b67a-f632f9f9e975")
+	)
+	(fp_arc
+		(start -5.845 2.54)
+		(mid -7.115 1.27)
+		(end -5.845 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d01c071a-7f5c-444d-9579-f884a4fea912")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.712 1.27 0)
+		(layer "F.Fab")
+		(uuid "f8fe5387-5755-4dc3-b000-644c3d16d3b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.416 1.416)
+		(drill 0.91)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "08c56df4-0a08-482f-8801-861f4384f4cb")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.416 1.416)
+		(drill 0.91)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f28c4daf-f438-4abc-9824-4b52b2b64daa")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.416 1.416)
+		(drill 0.91)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2345bbc-0840-4240-a69c-3cfc57f064df")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 2.54)
+		(size 1.416 1.416)
+		(drill 0.91)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a57fae2c-983f-47e4-8b08-a39aacbccf96")
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/SSF-LXH240IGD.stp"
+		(hide yes)
+		(offset
+			(xyz -4.459999971 -1.269999962 5.519999898)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/SSF-LXH240GGD.stp"
+		(offset
+			(xyz -0.4 -1.27 4.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

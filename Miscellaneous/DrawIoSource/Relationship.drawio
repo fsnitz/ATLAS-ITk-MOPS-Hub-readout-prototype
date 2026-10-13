@@ -1,0 +1,116 @@
+<mxfile host="Electron" modified="2024-07-22T16:46:15.908Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="DFKxemv2Ay9G8r4QgwgT" version="24.6.4" type="device">
+  <diagram name="Page-1" id="eOdHLduZ5OWHbuCIXsUd">
+    <mxGraphModel dx="641" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="126" width="440" height="389" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-1" value="Temperature Sensor PP3-FPGA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#8DACBD;" vertex="1" parent="1">
+          <mxGeometry x="110" y="134" width="370" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-12" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-3" target="3oIBk2VBYJPnj6efdL_y-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="154" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-13" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-3" target="3oIBk2VBYJPnj6efdL_y-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="154" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-3" value="Temperature&lt;div&gt;sensor PP3-FPGA_0&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9D0E6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="238" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-4" value="Connected&lt;div&gt;(bool)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="206" y="379" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-5" value="&lt;div&gt;Temperature value&lt;/div&gt;&lt;div&gt;(float)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="206" y="448" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-8" value="&lt;div&gt;Description&lt;/div&gt;&lt;div&gt;(string)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="206" y="310" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-15" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-3" target="3oIBk2VBYJPnj6efdL_y-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="157" y="298" as="sourcePoint" />
+            <mxPoint x="206" y="478" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="154" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-16" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-18" target="3oIBk2VBYJPnj6efdL_y-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-17" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-18" target="3oIBk2VBYJPnj6efdL_y-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="349" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-18" value="Temperature&lt;div&gt;sensor PP3-FPGA_1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#A9D0E6;" vertex="1" parent="1">
+          <mxGeometry x="305" y="238" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-19" value="Connected&lt;div&gt;(bool)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="401" y="379" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-20" value="&lt;div&gt;Temperature value&lt;/div&gt;&lt;div&gt;(float)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="401" y="448" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-21" value="&lt;div&gt;Description&lt;/div&gt;&lt;div&gt;(string)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BCE9FF;" vertex="1" parent="1">
+          <mxGeometry x="401" y="310" width="78" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-22" style="edgeStyle=none;curved=0;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-18" target="3oIBk2VBYJPnj6efdL_y-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="352" y="298" as="sourcePoint" />
+            <mxPoint x="401" y="478" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="349" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197.5" y="239" as="sourcePoint" />
+            <mxPoint x="202.5" y="201" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="222" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-18" target="3oIBk2VBYJPnj6efdL_y-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="238" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="221" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-32" value="Data Point Type (DPT)" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#8dacbd;" vertex="1" parent="1">
+          <mxGeometry x="30.72" y="163" width="97.56" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-33" value="Data Point&amp;nbsp;&lt;div&gt;(DP)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#a9d0e6;" vertex="1" parent="1">
+          <mxGeometry x="34.57" y="255" width="89.87" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-34" value="Data Point Elememnts&lt;div&gt;&amp;nbsp;(DPE)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=-90;fillColor=#bce9ff;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="389" width="199" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3oIBk2VBYJPnj6efdL_y-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3oIBk2VBYJPnj6efdL_y-1" target="3oIBk2VBYJPnj6efdL_y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

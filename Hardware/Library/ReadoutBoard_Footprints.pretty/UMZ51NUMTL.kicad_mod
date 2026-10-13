@@ -1,0 +1,260 @@
+(footprint "UMZ51NUMTL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SOT-323FL")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 3.7 0)
+		(layer "F.SilkS")
+		(uuid "eaf53cdf-214a-45d4-a0eb-d58d178ede42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "UMZ51NUMTL"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08086fee-79bb-4e0d-bb72-ec075adc7241")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e13ea77-1bac-4508-9ef6-dc62c6ddb7a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f15750cb-98e9-488b-af44-34fd5e3bf2b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5958e59-5e21-4ea6-a2c1-0f9ebe0fbd34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 0.95)
+		(end -1.25 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8aea9ffe-cc46-43ac-a61b-b86520516872")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end -1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f1a9128-8947-4da7-8ccd-3e6005f446e4")
+	)
+	(fp_line
+		(start -0.8 -0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9551361e-fe0a-4f99-8514-517ae1ca446c")
+	)
+	(fp_line
+		(start 0.8 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7061429d-08b1-4c57-8532-a36872bc79e9")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5aa944b9-bac7-42e2-b28f-d5619680d84f")
+	)
+	(fp_arc
+		(start -1.25 0.95)
+		(mid -1.2 1)
+		(end -1.25 1.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d9e7985e-07e7-4a6e-aaf7-78cfc601dd11")
+	)
+	(fp_arc
+		(start -1.25 1.05)
+		(mid -1.3 1)
+		(end -1.25 0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9aa656ce-75cc-4374-ba03-f440fa6ab1fa")
+	)
+	(fp_line
+		(start -2.05 -2.25)
+		(end 2.05 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cf3fe9f6-efd8-48b8-91bb-e91dc7746fba")
+	)
+	(fp_line
+		(start -2.05 2.25)
+		(end -2.05 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54a7ccb8-f15a-4489-8450-9f3952890e39")
+	)
+	(fp_line
+		(start 2.05 -2.25)
+		(end 2.05 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f34f099a-6f35-4fd6-a58f-cf77f0cfc1c5")
+	)
+	(fp_line
+		(start 2.05 2.25)
+		(end -2.05 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb702544-2274-45d7-b2b5-9dc034f7d5f2")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3b0a44a-67bb-4270-bba5-4b0bb3eb43bf")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0414b7c2-9155-429a-8762-cce2c434dee3")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9950cdae-9dc9-4b39-88ee-ca6c9fc54687")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92099eb7-9301-409c-9626-15e879c8444e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "463a2b2f-a02f-46d6-879e-8a9f98d08bd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.65 0.8)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "800f81ca-bab5-4a84-b815-4c8deaaab9f8")
+	)
+	(pad "2" smd rect
+		(at 0.65 0.8)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "18c9d8be-5fc4-4060-9206-3cf3cb7ff43e")
+	)
+	(pad "3" smd rect
+		(at 0 -0.8)
+		(size 0.8 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "94a35d62-e3a5-499e-96bd-a067668424db")
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/UMZ5.1NUMTL.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

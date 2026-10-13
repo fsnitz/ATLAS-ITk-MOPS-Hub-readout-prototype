@@ -1,0 +1,11 @@
+&amba {
+	#address-cells = <2>;
+	#size-cells = <2>;
+	PLtoPS_Test_regs_0: PLtoPS_Test_regs@400000000 {
+		clock-names = "axi_aclk";
+		clocks = <&zynqmp_clk 71>;
+		/* compatible = "xlnx,PLtoPS-Test-regs-1.0";  */
+		compatible = "generic-uio";
+		reg = <0x00000004 0x00000000 0x00000001 0x00000000>;
+	};
+};

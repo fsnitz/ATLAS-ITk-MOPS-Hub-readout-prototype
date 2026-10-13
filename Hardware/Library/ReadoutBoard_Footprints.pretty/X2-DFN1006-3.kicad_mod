@@ -1,0 +1,233 @@
+(footprint "X2-DFN1006-3"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DMN26D0UFB4-7-4")
+	(tags "MOSFET (N-Channel)")
+	(property "Reference" "Q**"
+		(at 1.1 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "de7a6f50-895c-4d72-9e2e-511174968646")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "X2-DFN1006-3"
+		(at 0.175 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "61cb112d-40eb-4000-8dc8-688011ce7f93")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fc9934e-b25c-4d1f-8cd5-6d19e2d61bb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0fd85e4-6cde-46ee-8733-6dfc44db3629")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38841dec-f650-4006-ad8a-e3d7a01e63b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0.8 -0.2)
+		(end 0.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab376c95-49fb-490d-b10d-23881f77238e")
+	)
+	(fp_line
+		(start 0.9 -0.2)
+		(end 0.9 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a263ac8-e521-4815-b010-85a0484a14eb")
+	)
+	(fp_arc
+		(start 0.8 -0.2)
+		(mid 0.85 -0.25)
+		(end 0.9 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5a5b209-7c4a-4bf8-82cc-ddca8064d9b4")
+	)
+	(fp_arc
+		(start 0.9 -0.2)
+		(mid 0.85 -0.15)
+		(end 0.8 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56144a3b-54e5-4729-9115-b75416749898")
+	)
+	(fp_line
+		(start -1.55 -1.35)
+		(end -1.55 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a93fa67-eafd-45da-a171-a5f3e9080df3")
+	)
+	(fp_line
+		(start -1.55 1.35)
+		(end 1.9 1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6410a2db-8819-42d1-9d70-73043cc013f2")
+	)
+	(fp_line
+		(start 1.9 -1.35)
+		(end -1.55 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "360caa4e-0073-4bb6-849b-ca361de9e47a")
+	)
+	(fp_line
+		(start 1.9 1.35)
+		(end 1.9 -1.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33cbd1a7-0030-4bda-956f-1eccd44b3158")
+	)
+	(fp_line
+		(start -0.5 -0.3)
+		(end -0.5 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da7e941e-0655-4146-8e35-ef0524d78d5a")
+	)
+	(fp_line
+		(start -0.5 0.3)
+		(end 0.5 0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22cd8196-62fb-4e4b-b27d-007d3cf262bb")
+	)
+	(fp_line
+		(start 0.5 -0.3)
+		(end -0.5 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cb990b33-1656-42cb-ad59-c71a533bb64e")
+	)
+	(fp_line
+		(start 0.5 0.3)
+		(end 0.5 -0.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f0c16e56-1b00-4e85-baa4-702f09ca0c33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.175 0 0)
+		(layer "F.Fab")
+		(uuid "4f2eabfe-c374-4b4e-bcf5-222aad39f9ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.35 -0.225 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "06e93740-1e39-442b-a89f-c22acd96cb48")
+	)
+	(pad "2" smd rect
+		(at 0.35 0.225 90)
+		(size 0.25 0.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c4c8fb65-9b87-4576-8163-99aa751c7866")
+	)
+	(pad "3" smd rect
+		(at -0.35 0)
+		(size 0.4 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3bcad70c-a1f4-476c-a462-5e86ba0d7fc2")
+	)
+	(model "/Users/fnitz/MasterThesis/Hardware/Library/3D_Models/DMN26D0UFB4-7.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

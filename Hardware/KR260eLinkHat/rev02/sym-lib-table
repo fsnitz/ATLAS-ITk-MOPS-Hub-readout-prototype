@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ReadoutBoard_Simbols")(type "KiCad")(uri "/Users/fnitz/MasterThesis/Hardware/Library/ReadoutBoard_Simbols.kicad_sym")(options "")(descr ""))
+)
